@@ -6,14 +6,14 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="flex flex-col justify-center">
-          <a href={resume} download='resume' className="resume_link">
+          <a href={resume} download='resume' className="resume_link" target="_blank" rel="noopener noreferrer">
             <p>Download My Resume</p>
           </a>
         </div>
         <div className="socials">
           {socialImgs.map((socialImg, index) => (
             <div key={index} className="icon">
-              <a href={socialImg.link}>
+              <a href={socialImg.link} target="_blank" rel="noopener noreferrer">
                 <img src={socialImg.imgPath} alt="social icon" />
               </a>
             </div>

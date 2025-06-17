@@ -74,7 +74,7 @@ const ChatBot = () => {
         aria-label="Toggle Chat"
       >
         <img
-          src="/images/chatbot-icon.png"
+          src="/WebPortfolio/images/chatbot-icon.png"
           alt="Chatbot"
           className="w-14 h-14 object-contain"
         />
